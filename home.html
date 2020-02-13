@@ -52,9 +52,9 @@
     
 
  }
- button{
+ #button{
 	border: 0;
-    background: white;
+    background: rgb(223, 217, 217);
     display: block;
     text-align: center;
     border: 2px solid grey;
@@ -66,7 +66,7 @@
     transition: 0.25s;
     cursor: pointer;
  }
- button:hover{
+ #button:hover{
 	 background: black;
 	 color:white;
  }
@@ -90,7 +90,7 @@
 <body>
 	<header id="main-header"><h1>INFOGRAM</h1></header>
 <br>
-<form action="thanks.html" method="POST">
+<form action="thanks.html">
 	<div>
 		<label><h4>First Name  </label>
 		<input type = "text" name = "first-name" placeholder="Enter first name"></h4>
@@ -153,11 +153,11 @@
 		<label><h4>Write about yourself</h4></label>
 		
 		<textarea name="message"></textarea>
-	 </div>
-	 
+	 </div>	 
 	<br>
-        <button>Save</button>   
-		
+	<div id="button">
+           <input type="submit" value="Submit">
+	</div>	
 </form>
 <br>
 <footer id="main-footer">
