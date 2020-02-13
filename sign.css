@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://fsb.zobj.net/crop.php?r=6KHOfxMZYIDkwuClHvf2Pm9HyjYcXkwySFO_JG4-pyIn2UVK0hVAYBESZwEd_NojnNVT3HZNRPjKzCLKfaabMNo2YopBGh63sBn2MndkJ2cknO1Pm_tH5Jb4iQyZ3-YHcApWtAebw8TrY5Qm");
+    background-repeat: none;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #34495e;
+
+}
+.box{
+    
+    width: 500px;
+    padding: 40px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #363636;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform:uppercase;
+    font-weight:500px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]{
+    width: 300px;
+    border-color: #2ecc71;
+   }
+   .box input[type="button" ]{
+       border: 0;
+       background: none;
+       display: block;
+       margin: 20px auto;
+       text-align: center;
+       border: 2px solid rgb(99, 99, 124);
+       padding: 14px 10px;
+       width: 200px;
+       outline: none;
+       color:white;
+       border-radius: 24px;
+       transition: 0.25s;
+       cursor: pointer;
+   
+   }
+   .box input[type="button" ]:hover{
+       background: rgb(37, 37, 158);
+   
+   }
