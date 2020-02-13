@@ -70,7 +70,7 @@ body{
     border:outset;
     border-radius: 20px; 
     opacity: 0.9;
-    position: relative;
+    position: absolute;
 }
 #sidebar{
     float: none;
