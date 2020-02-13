@@ -6,6 +6,9 @@ body{
     background-color: #34495e;
 
 }
+p{
+ color:white;
+}
 .box{
     
     width: 500px;
