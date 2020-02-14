@@ -112,6 +112,7 @@ input:hover{
     text-align: center;
     padding: 25px 35px;
     margin-top: initial;
+    margin-bottom:0;
 }
 @media only screen and (max-width:50%)
            {
