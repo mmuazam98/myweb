@@ -1,7 +1,7 @@
 body{
     
     
-    background: linear-gradient(90deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) 50%);
+    background: linear-gradient(180deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) );
     color:rgb(20, 19, 19);
     font-size: 23px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -73,7 +73,7 @@ body{
  }
  .column1 {
     margin-top: 45px;
-    margin-left: 12%;
+    margin-left: 10%;
   float: right;
   width: 300px;
   padding: 30px;
@@ -133,13 +133,13 @@ input:hover{
            {
           body {
                
-                background: linear-gradient(to right rgb(100, 72, 224),rgb(52, 24, 177),rgb(100, 72, 224));
+                background: linear-gradient(180deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) );
                 width:100%;
                 }
                 .row{
                  width:100%;
                     padding:15px;
-                    margin-left:7%;
+                    margin-left:8%;
                 }
                .column,.column1{
                  width:25%;
