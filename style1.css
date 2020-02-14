@@ -107,7 +107,7 @@ body{
     width: 30%;
     background: purple;
     color:#fff;
-    margin-top: 8%;
+    margin-top: 10%;
     
     margin-left: 55%;
     padding:10px;
@@ -121,7 +121,7 @@ body{
     width: 30%;
     background: green;
     color:#fff;
-    margin-top:-20%;
+    margin-top:-30%;
     margin-left: 15%;
     padding:10px;
     box-sizing: border-box;
@@ -134,7 +134,7 @@ body{
     width: 30%;
     background: rgb(221, 82, 105);
     color:#fff;
-    margin-top: 8%;
+    margin-top: 9%;
     margin-bottom: 2%;
     margin-left: 55%;
     padding:10px;
@@ -149,7 +149,7 @@ body{
     background: rgb(224, 72, 16);
     color:#fff;
     
-    margin-top:-20%;
+    margin-top:-30%;
     margin-left: 15%;
     padding:10px;
     box-sizing: border-box;
