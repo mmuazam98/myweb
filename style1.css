@@ -15,7 +15,7 @@ body{
    opacity: 0.99;
 }
 .container{
-    width:80%;
+    width:85%;
     margin: auto;
     overflow:hidden;
     color:silver;
@@ -56,7 +56,7 @@ body{
     width: 500px;
     margin: 2% auto;
     border-radius: 20px;
-    font-size:5vw;
+    max-width:50%;
 }
 
 #main{
