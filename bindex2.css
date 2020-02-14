@@ -84,7 +84,7 @@ body{
 }
   .column {
       margin-top: 40px;
-      margin-left: 10%;
+      margin-left: 7.5%;
     float: right;
     width: 300px;
     padding: 30px;
@@ -136,7 +136,7 @@ input:hover{
                 width:100%;
                 }
                 .row{
-                 margin-left: -120%;
+                 margin-left: -90%;
                 }
                .column{
                  margin-left:-20%;
