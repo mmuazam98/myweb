@@ -132,7 +132,7 @@ input:hover{
            {
           body {
                 width:100%;
-                background: black;
+                background: linear-gradient(90deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) 50%);
                 }
                 .row{
                  margin-left: -120%;
