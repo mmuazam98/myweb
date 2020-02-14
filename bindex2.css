@@ -73,7 +73,7 @@ body{
  }
  .column1 {
     margin-top: 45px;
-    margin-left: 50%;
+    margin-left: 35%;
   float: right;
   width: 300px;
   padding: 30px;
@@ -84,7 +84,7 @@ body{
 }
   .column {
       margin-top: 40px;
-      margin-left: 8.2%;
+      margin-right: 35%;
     float: right;
     width: 300px;
     padding: 30px;
