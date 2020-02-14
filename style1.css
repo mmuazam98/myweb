@@ -147,7 +147,7 @@ body{
     width: 30%;
     background: rgb(224, 72, 16);
     color:#fff;
-    margin-top: -19%;
+    margin-top: -10%;
     
     margin-left: 15%;
     padding:10px;
@@ -176,7 +176,7 @@ input:hover{
     background: rgb(133, 123, 123);
 }
 #main-footer{
-    font-size: 20px;
+    font-size: 15px;
     background: rgb(13, 3, 70);
     color: #fff;
     text-align: center;
