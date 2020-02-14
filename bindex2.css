@@ -84,7 +84,7 @@ body{
 }
   .column {
       margin-top: 40px;
-      margin-left:8%;
+      margin-left:7%;
       margin-right: 31%;
     float: right;
     width: 300px;
@@ -129,7 +129,7 @@ input:hover{
     padding: 25px 35px;
     margin-top: 200px;
 }
-@media only screen and (max-width:600px)
+@media only screen and (min-width:600px)
            {
           body {
                
@@ -137,14 +137,9 @@ input:hover{
                 width:100%;
                 }
                 .row{
-                 margin-left: -90%;
+                 width:100%;
                 }
-               .column1{
-                  margin-left:-5%;
-                   padding:5px 5px;
-               }
-               .column{
-                 margin-left:-5%;
-                   padding:5px 5px;
+               .column,.column1{
+                 width:25%
                }
            }
