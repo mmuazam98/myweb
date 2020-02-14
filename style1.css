@@ -56,7 +56,8 @@ body{
     width: 500px;
     margin: 2% auto;
     border-radius: 20px;
-}
+}9084
+
 #main{
     float:none;
     width:70%;
@@ -90,7 +91,7 @@ body{
     width: 30%;
     background: red;
     color:#fff;
-    margin-top: -7.2%;
+    margin-top: -15.2%;
   
     margin-left: 55%;
     padding:10px;
@@ -105,7 +106,7 @@ body{
     background: purple;
     color:#fff;
     margin-top: 2%;
-    margin-bottom: 5%;
+    
     margin-left: 55%;
     padding:10px;
     box-sizing: border-box;
