@@ -133,14 +133,15 @@ input:hover{
            {
           body {
                
-                background: linear-gradient(90deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) );
+                background: linear-gradient(90deg, rgb(100, 72, 224) 30%, rgb(52, 24, 177) );
                 width:100%;
                 }
                 .row{
                  width:100%;
+                    padding:15px;
                 }
                .column,.column1{
                  width:25%;
-                   padding:15px;
+                   padding:15px 15px;
                }
            }
