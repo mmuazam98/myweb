@@ -73,7 +73,7 @@ body{
  }
  .column1 {
     margin-top: 45px;
-    margin-left: 10%;
+    margin-left: 9%;
   float: right;
   width: 300px;
   padding: 30px;
@@ -133,7 +133,7 @@ input:hover{
            {
           body {
                
-                background: linear-gradient(180deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) );
+                background: linear-gradient(180deg, #orange, #yellow );
                 width:100%;
                 }
                 .row{
