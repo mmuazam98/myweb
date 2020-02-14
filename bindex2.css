@@ -138,7 +138,10 @@ input:hover{
                 .row{
                  margin-left: -90%;
                 }
+               .column1{
+                  margin-left:5%;
+               }
                .column{
-                 margin-left:-20%;
+                 margin-left:10%;
                }
            }
