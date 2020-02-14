@@ -84,6 +84,7 @@ body{
 }
   .column {
       margin-top: 40px;
+      margin-left:8%;
       margin-right: 31%;
     float: right;
     width: 300px;
