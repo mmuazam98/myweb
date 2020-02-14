@@ -132,18 +132,18 @@ input:hover{
            {
           body {
                
-                background: linear-gradient(90deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) 50%);
+                background: linear-gradient(180deg, rgb(100, 72, 224) 50%, rgb(52, 24, 177) 50%);
                 width:100%;
                 }
                 .row{
                  margin-left: -90%;
                 }
                .column1{
-                  margin-left:5%;
+                  margin-left:-5%;
                    padding:5px 5px;
                }
                .column{
-                 margin-left:10%;
+                 margin-left:-5%;
                    padding:5px 5px;
                }
            }
