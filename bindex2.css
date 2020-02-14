@@ -48,6 +48,21 @@ body{
     border-radius: 20px;
     max-width:50%;
 }
+#main{
+    float:left;
+    width:70%;
+    background: #333;
+    color:#fff;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 20%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border:outset;
+    border-radius: 20px; 
+    opacity: 0.9;
+    position: relative;
+}
 * {
     box-sizing: border-box;
     
@@ -111,8 +126,7 @@ input:hover{
     color: #fff;
     text-align: center;
     padding: 25px 35px;
-    margin-top: initial;
-    margin-bottom:0;
+    margin-top: 200px;
 }
 @media only screen and (max-width:50%)
            {
