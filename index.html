@@ -3,16 +3,24 @@
         <title>Login</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script>
+        function validateForm() {
+  var x = document.forms["myForm"]["username"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+        </script>
+  }
+}
     </head>
     <body>
-        <form action="login.html" class="box",method="post">
+        <form name="myForm" action="bindex.html" class="box" onsubmit="return validateForm()" method="post">
             <h1>BOROGRAM</h1>
             <input type="text" name="" placeholder="Username">
             <input type="password" name="" placeholder="Password">
-            <input type="button"  onclick="window.location.href = 'bindex.html';" name="" value="Login">
+            <input type="button"  onclick="window.location.href = 'bindex.html';" name="username" value="Login">
             <p>-------------OR-------------</p>
-            <input type="button" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
+            <input type="button" onclick="window.location.href = 'signup.html';" name="password" value="Sign Up">
             
         </form>
     </body>
