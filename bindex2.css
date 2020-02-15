@@ -51,7 +51,7 @@ body{
 #main{
     float:left;
     width:70%;
-    background: #333;
+    background: rgb(6, 1, 41);
     color:#fff;
     margin-top: 2%;
     margin-left: 15%;
@@ -60,7 +60,7 @@ body{
     box-sizing: border-box;
     border:outset;
     border-radius: 20px; 
-    opacity: 0.9;
+    opacity: 0.8;
     position: relative;
 }
 * {
