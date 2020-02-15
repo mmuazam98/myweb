@@ -44,8 +44,8 @@ p{
 }
 
 .box input[type="text"]:focus,.box input[type="password"]:focus{
- width: 240px;
- border-color: #2ecc71;
+ width: 270px;
+ border-color:#fc2929 ;
 }
     .box input[type="text"]:hover,.box input[type="password"]:hover{
  width: 270px;
@@ -113,7 +113,7 @@ p{
     }
     .box input[type="text"]:focus,.box input[type="password"]:focus{
  width: 400px;
- border-color: #2ecc71;
+ border-color: #fc2929;
 }
     .box input[type="text"]:hover,.box input[type="password"]:hover{
  width: 400px;
