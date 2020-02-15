@@ -47,10 +47,11 @@ p{
  width: 300px;
  border-color: #2ecc71;
 }
-.box input[type="text"]:hover,.box input[type="password"]:hover{
- width: 400px;
+ .box input[type="text"]:hover,.box input[type="password"]:hover{
+ width: 325px;
  border-color: #2ecc71;
-}
+    }
+
 .box input[type="button" ]{
     border: 0;
     background: none;
@@ -75,8 +76,9 @@ p{
     .box{
          width:500px;
     }
+   
     .box input[type="text"]:hover,.box input[type="password"]:hover{
- width: 325px;
+ width: 400px;
  border-color: #2ecc71;
-    }
+}
 }
