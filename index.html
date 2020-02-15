@@ -1,17 +1,18 @@
 <html>
     <head>
-        <title>Login</title>
+        <title>Login Form</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     </head>
     <body>
-        <form action="bindex2.html" class="box" method="post">
+        <form action="bindex2.html" class="box",method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="name" placeholder="Username">
-            <input type="password" name="password" placeholder="Password" >
-            <input type="submit"  onclick="window.location.href = 'bindex2.html';" name="Submit" value="Login">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password">
+            <input type="button"  onclick="window.location.href = 'bindex2.html';" name="" value="Login">
             <p>-------------OR-------------</p>
-            <input type="button" onclick="window.location.href = 'signup.html';" name="Signup" value="Sign Up">
+            <input type="button" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
             
         </form>
     </body>
