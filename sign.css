@@ -44,7 +44,7 @@ body{
    }
    .box input[type="button" ]{
        border: 0;
-       background: none;
+       background: #fc2929;
        display: block;
        margin: 20px auto;
        text-align: center;
@@ -69,7 +69,7 @@ body{
     
 .box input[type="text"],.box input[type="password"]{
     border: 0;
-    background: #fc2929;
+    background: none;
     display: block;
     margin: 20px auto;
     text-align: center;
@@ -83,6 +83,6 @@ body{
     }
     .box input[type="text"]:hover,.box input[type="password"]:hover{
  width: 400px;
- border-color: #2ecc71;
+ border-color: #fc2929;
 }
 }
