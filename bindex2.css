@@ -126,6 +126,7 @@ body{
 }
 input:hover{
     background: rgb(133, 123, 123);
+    width:105px;
 }
 #main-footer{
     font-size: 15px;
