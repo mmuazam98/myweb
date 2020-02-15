@@ -52,7 +52,7 @@ p{
  border-color: #fc2929;
 }
 
-.box input[type="button" ]{
+.box input[type="submit" ]{
     border: 0;
     background: #fc2929;
     display: block;
@@ -68,7 +68,7 @@ p{
     cursor: pointer;
 
 }
-.box input[type="button" ]:hover{
+.box input[type="submit" ]:hover{
     background:  #fc2929;
     width:220px;
 }
