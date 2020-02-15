@@ -3,14 +3,27 @@
         <title>Signup</title>
      <link rel="stylesheet" href="sign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+     <script>  
+        function validateform2(){  
+        var name=document.myform.name.value;  
+        var password=document.myform.password.value;  
+          
+        if (name==null || name==""){  
+          alert("Name can't be blank");  
+          return false;  
+        }else if(password.length<6){  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+          }  
+        }  
+        </script>
     </head>
     <body>
-        <form action="login.html" class="box",method="post">
+         <form name="myform" action="index.html" class="box" method="post" onsubmit="return validateform2()">
             <h1>BOROGRAM</h1>
             <input type="text" name="" placeholder="Enter a Username" required>
             <input type="password" name="" placeholder="Password" required>
-            <input type="button"  onclick="window.location.href = 'index.html';" name="" value="Sign Up">
+            <input type="submit"  name="" value="Sign Up">
             
             
         </form>
