@@ -74,6 +74,7 @@ body{
  }
  .column1 {
      background-size: cover;
+     color: white;
     margin-top: 45px;
     margin-left: 8%;
   float: right;
@@ -87,6 +88,7 @@ body{
 }
   .column {
       background-size: cover;
+      color: white;
       margin-top: 40px;
       margin-left:7%;
       margin-right: 31%;
