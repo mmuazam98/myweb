@@ -11,7 +11,7 @@ p{
 }
 .box{
     
-    width: 500px;
+    width: 300px;
     padding: 40px;
     position:absolute;
     top:50%;
@@ -70,6 +70,6 @@ p{
 }
 @media only screen and (min-width:600px){
     .box{
-      width:300px;
+      width:500px;
     }
 }
