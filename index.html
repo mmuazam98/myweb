@@ -6,15 +6,19 @@
    <script>  
         function validateform(){  
         var name=document.myform.name.value;  
-            var password=document.myform.password.value;
-        if (name==null || name==""){  
-          alert("Can't be empty");  
+        var password=document.myform.password.value;  
+          
+        if (name==""||password==""){  
+          alert("Field can't be blank");  
           return false;  
-           }else if(password.length<6){  
-          alert("Please enter your password");  
-          return false;  
-          }  
-        }  
+        }
+
+        else{
+            return true;
+        } 
+        }     
+        
+        
         </script>
     </head>
     <body>
