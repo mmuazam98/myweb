@@ -111,6 +111,10 @@ p{
     border-radius: 24px;
     transition: 0.25s;
     }
+    .box input[type="text"]:focus,.box input[type="password"]:focus{
+ width: 400px;
+ border-color: #2ecc71;
+}
     .box input[type="text"]:hover,.box input[type="password"]:hover{
  width: 400px;
  border-color: #fc2929;
