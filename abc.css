@@ -44,7 +44,7 @@ p{
 
 }
 
-.box input[type="text"]:focus,.box input[type="password"]{
+.box input[type="text"]:focus,.box input[type="password"]:focus{
  width: 300px;
  border-color: #2ecc71;
 }
