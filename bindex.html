@@ -1,32 +1,34 @@
 <html>
-   <title>Login Form</title>
+    <head>
+        <title>Login Form</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     </head>
-<body>
-
-<h2>JavaScript</h2>
-
-<h3>The window.location object</h3>
-<form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" class="box" method="post">
-<input type="text" name="nnn">
-<input type="password" name="ppp" required>
-<input type="button" value="Load" onclick="newDoc()">
-</form>
-<script>
-function newDoc() {
-  var name=document.myform.nnn.value;
-  var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="")
+    <body>
+        <form name="myform" class="box"  method="get">
+            <h1>BOROGRAM</h1>
+            <input type="text" name="nm" placeholder="Username">
+            <input type="password" name="psw" placeholder="Password">
+            <input type="submit" onclick="validateform()"  name="" value="Login">
+            <p>-------------OR-------------</p>
+           <p><a href="signup.html">Create an account</a></p>
+            
+        </form>
+          <script>  
+        function validateform(){  
+        var name=document.myform.nm.value;  
+        var password=document.myform.psw.value;  
+          
+        if (name!=="" && psw!==""){  
+         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+        }
+            else
   {
-  window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+    window.alert("Incomplete credentials."); 
   }
-  else if(pswd.length<6)
-    window.alert("password should be contain atleast 6 alphabets! ");
-   }
- 
-</script>
 
-</body>
+        }  
+        </script>
+    </body>
 </html>
