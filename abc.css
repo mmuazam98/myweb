@@ -78,7 +78,7 @@ p{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 1px solid  #fc2929;;
+    border: 1px solid  #fc2929;
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -97,7 +97,7 @@ p{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 1px solid  #fc2929;;
+    border: 1px solid  #fc2929;
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -105,10 +105,11 @@ p{
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
-
+    text-decoration: none;
+    
 }
 #link:hover{
-    background:  #fc2929;
+    
     width:220px;
 }
 @media only screen and (min-width:600px){
