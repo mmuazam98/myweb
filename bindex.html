@@ -3,31 +3,14 @@
         <title>Login Form</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>  
-        function validateform(){  
-        var name=document.myform.name.value;  
-        var password=document.myform.password.value;  
-          
-        if (name==""||password=="")
-        {  
-        window.alert("Incomplete credentials."); 
-        name.focus(); 
-        return false; 
-        }
-        else{
-             window.location="http://mm1025web.github.io/myweb/bindex2.html";
-            return true;
-           }
-
-        }  
-        </script>
+    
     </head>
     <body>
-         <form name="myform"  class="box" method="post" >
+         <form action="bindex2.html"  class="box">
             <h1>BOROGRAM</h1>
             <input type="text" name="name" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" onclick="validateform()"  name="" value="Login">
+            <input type="submit" name="" value="Login">
             <p>-------------OR-------------</p>
             <input type="button" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
             
