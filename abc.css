@@ -90,6 +90,11 @@ p{
     text-decoration: none;
     
 }
+#link a{
+  
+    color:#fff;
+    text-decoration: none;
+}
 #link:hover{
     
     width:220px;
