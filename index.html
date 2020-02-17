@@ -3,17 +3,31 @@
         <title>Login Form</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  
     </head>
     <body>
-         <form action="bindex2.html" class="box">
+        <div class="box">
+        <form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="name" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="button"  name="" value="Login">
-            <p>-------------OR-------------</p>
-            <input type="button" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
-            
+            <input type="text" name="nnn" placeholder="Username">
+            <input type="password" name="ppp" placeholder="Password">
+            <input type="button" onclick="newDoc()"  name="" value="Login">
+            <p>-------------OR-------------</p>  
         </form>
+             <input type="button" onclick="window.location.href = 'signup.html';"  value="Sign up">
+          </div>
+<script>
+function newDoc() {
+  var name=document.myform.nnn.value;
+  var pswd=document.myform.ppp.value;
+  if (name!==""&& pswd!=="" && pswd.length>=3)
+  {
+  window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+  }
+  else if(pswd.length<3)
+    window.alert("Enter valid credentials! ");
+   }
+ 
+</script>
     </body>
 </html>
