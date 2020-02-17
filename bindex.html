@@ -6,15 +6,16 @@
   
     </head>
     <body>
-        <form name="myform" class="box" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
+        <div class="box">
+        <form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
             <h1>BOROGRAM</h1>
             <input type="text" name="nnn" placeholder="Username">
             <input type="password" name="ppp" placeholder="Password">
             <input type="button" onclick="newDoc()"  name="" value="Login">
-            <p>-------------OR-------------</p>
-           <p id="link"><a href="signup.html">Signup</a></p>
-            
+            <p>-------------OR-------------</p>  
         </form>
+             <input type="button" onclick="newDoc()"  name="" value="Sign up">
+          </div>
 <script>
 function newDoc() {
   var name=document.myform.nnn.value;
