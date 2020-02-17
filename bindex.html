@@ -8,15 +8,13 @@
         var name=document.myform.name.value;  
         var password=document.myform.password.value;  
           
-        if (name==""||password==""){  
-        window.alert("Incomplete credentials."); 
-        name.focus(); 
-        return false; 
+        if (name!==""){  
+         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
         }
-       
-        else{
-            window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
-        }
+            else
+  {
+    window.alert("Incomplete credentials."); 
+  }
 
         }  
         </script>
