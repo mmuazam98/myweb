@@ -8,28 +8,25 @@
     <body>
         <form name="myform" class="box" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="nm" placeholder="Username">
-            <input type="password" name="psw" placeholder="Password">
+            <input type="text" name="nnn" placeholder="Username">
+            <input type="password" name="ppp" placeholder="Password">
             <input type="button" onclick="validateform()"  name="" value="Login">
             <p>-------------OR-------------</p>
            <p id="link"><a href="signup.html">Create an account</a></p>
             
         </form>
-          <script>  
-        function validateform(){  
-        var name=document.myform.nm.value;  
-        var password=document.myform.psw.value;  
-          
-        if (name!=="" && psw!==""){  
-         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
-        }
-            else
+        <script>
+        function newDoc() {
+  var name=document.myform.nnn.value;
+  var pswd=document.myform.ppp.value;
+  if (name!==""&& pswd!=="" && pswd.length>=6)
   {
-    window.alert("Incomplete credentials."); 
-      return false;
+  window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
   }
-
-        }  
-        </script>
+  else if(pswd.length<6)
+    window.alert("password should be contain atleast 6 alphabets! ");
+   }
+ 
+</script>
     </body>
 </html>
