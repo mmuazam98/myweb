@@ -19,11 +19,11 @@
 function newDoc() {
   var name=document.myform.nnn.value;
   var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="" && pswd.length>=6)
+  if (name!==""&& pswd!=="" && pswd.length>=3)
   {
   window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
   }
-  else if(pswd.length<6)
+  else if(pswd.length<3)
     window.alert("Enter valid credentials! ");
    }
  
