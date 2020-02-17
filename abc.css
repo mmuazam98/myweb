@@ -75,33 +75,6 @@ p{
     background:  #fc2929;
     width:220px;
 }
-#link{
-    background-color: #fc2929;
-    color:white;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 1px solid  #fc2929;
-    padding: 15px 10px;
-    width: 180px;
-    outline: none;
-    font-size:17px;
-    font-family: Sans-Serif;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-    text-decoration: none;
-    
-}
-#link a{
-  
-    color:#fff;
-    text-decoration: none;
-}
-#link:hover{
-    
-    width:220px;
-}
 @media only screen and (min-width:600px){
     .box{
          width:500px;
