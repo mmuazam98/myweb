@@ -3,23 +3,10 @@
         <title>Signup</title>
      <link rel="stylesheet" href="sign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script>  
-        function validateform2(){  
-        var name=document.myyform.name.value;  
-        var password=document.myyform.password.value;  
-          
-        if (name==null || name==""){  
-          alert("Name can't be blank");  
-          return false;  
-        }else if(password.length<6){  
-          alert("Password must be at least 6 characters long.");  
-          return false;  
-          }  
-        }  
-        </script>
+     
     </head>
     <body>
-         <form name="myyform" action="bindex2.html" class="box" method="post" onsubmit="return validateform2()">
+         <form action="bindex2.html" class="box">
             <h1>BOROGRAM</h1>
             <input type="text" name="name" placeholder="Enter a Username" required>
             <input type="password" name="password" placeholder="Password" required>
