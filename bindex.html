@@ -3,13 +3,25 @@
         <title>Login Form</title>
      <link rel="stylesheet" href="abc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>  
+  
+    </head>
+    <body>
+        <form name="myform" class="box" >
+            <h1>BOROGRAM</h1>
+            <input type="text" name="nm" placeholder="Username">
+            <input type="password" name="psw" placeholder="Password">
+            <input type="submit" onclick="validateform()"  name="" value="Login">
+            <p>-------------OR-------------</p>
+            <input type="submit" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
+            
+        </form>
+          <script>  
         function validateform(){  
-        var name=document.myform.name.value;  
-        var password=document.myform.password.value;  
+        var name=document.myform.nm.value;  
+        var password=document.myform.psw.value;  
           
-        if (name!==""){  
-         window.location.assign("https://www.w3schools.com")
+        if (name!=="" && psw!==""){  
+         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
         }
             else
   {
@@ -18,16 +30,5 @@
 
         }  
         </script>
-    </head>
-    <body>
-        <form name="myform" class="box" >
-            <h1>BOROGRAM</h1>
-            <input type="text" name="name" placeholder="Username">
-            <input type="password" name="password" placeholder="Password">
-            <input type="submit" onclick="validateform()"  name="" value="Login">
-            <p>-------------OR-------------</p>
-            <input type="submit" onclick="window.location.href = 'signup.html';" name="" value="Sign Up">
-            
-        </form>
     </body>
 </html>
