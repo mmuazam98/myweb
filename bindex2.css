@@ -139,7 +139,7 @@ input:hover{
 @media only screen and (min-width:500px)
            {
           body {
-               
+                 width:100%;
                  background: url("https://i0.wp.com/proweztek.com/wp-content/uploads/2018/12/cropped-blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000-3.png?ssl=1") no-repeat fixed center;
                 background-size: cover;
                 
