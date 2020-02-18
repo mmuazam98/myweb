@@ -43,12 +43,14 @@ body{
     border-color: #fc2929;
    }
    .box input[type="submit" ]{
-       border: 0;
+      
        background: #fc2929;
        display: block;
        margin: 20px auto;
        text-align: center;
        border: 1px solid  #fc2929;
+       font-size:17px;
+       font-family: Sans-Serif;
        padding: 14px 10px;
        width: 200px;
        outline: none;
