@@ -6,13 +6,24 @@
      
     </head>
     <body>
-         <form action="bindex2.html" class="box">
+         <form action="bindex2.html" class="box" method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="name" placeholder="Enter a Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit"  name="" value="Sign Up">
-            
-            
+            <input type="text" name="nnn" placeholder="Enter a Username" required>
+            <input type="password" name="ppp" placeholder="Password" required>
+            <input type="submit" onclick="newDoc()" value="Sign Up"> 
         </form>
+        <script>
+function newDoc() {
+  var name=document.myform.nnn.value;
+  var pswd=document.myform.ppp.value;
+  if (name!==""&& pswd!=="" && pswd.length>=5)
+  {
+  window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+  }
+  else if(pswd.length<5)
+    window.alert("Your password is too weak!");
+   }
+ 
+</script>
     </body>
 </html>
