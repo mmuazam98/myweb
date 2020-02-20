@@ -21,11 +21,11 @@
 function newDoc() {
   var name=document.myform.nnn.value;
   var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="" && pswd.length>=3)
+  if (name!==""&& pswd!=="" && pswd.length>=6)
   {
   window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
   }
-    else if(name=="" || pswd=="" || pswd.length<3)
+    else if(name=="" || pswd=="" || pswd.length<6)
     {
     window.alert("Enter valid credentials!");
    }
