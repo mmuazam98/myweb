@@ -14,17 +14,20 @@
             <input type="button" onclick="newDoc()" value="Sign Up"> 
         </form>
             </div>
-  <script>
-function newDoc() {
+<script>
+function newDoc() 
+    {
   var name=document.myform.nnn.value;
   var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="" && pswd.length>=3)
+  if (name!==""&& pswd!=="" && pswd.length>=6)
   {
   window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
   }
-  else if(pswd.length<3)
-    window.alert("Your password is too weak! ");
+    else if(name=="" || pswd=="" || pswd.length<6)
+    {
+    window.alert("Password should have atleast 6 characters!");
    }
+ }
  
 </script>
     </body>
