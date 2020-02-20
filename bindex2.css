@@ -22,7 +22,8 @@ body{
     background-color: rgb(13, 3, 70);
     color:#fff;
     text-align: center; 
-    position: relative;
+    position: fixed;
+    
 }
 #navbar li{
     display:inline;
