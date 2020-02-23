@@ -1,34 +1,50 @@
-
 <html>
     <head>
-        <title>Login Form</title>
-     <link rel="stylesheet" href="abc.css">
+        <title>Signup</title>
+     <link rel="stylesheet" href="sign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+     
     </head>
     <body>
         <div class="box">
-        <form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
+         <form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="nnn" placeholder="Username">
-            <input type="password" name="ppp" placeholder="Password">
-            <input type="button" onclick="newDoc()"  name="" value="Login">
-            <p>-------------OR-------------</p>  
+            <input type="text" name="nnn" placeholder="Enter a Username" >
+            <input type="password" name="ppp" placeholder="Password" onkeyup="checkPass(); return false;"/>
+             <div id = "error-nwl" ></div > 
+            <input type="button" onclick="newDoc()" value="Sign Up"> 
         </form>
-             <input type="button" onclick="window.location.href = 'signup.html';"  value="Sign up">
-          </div>
+            </div>
 <script>
-function newDoc() {
+function checkPass()
+    {
   var name=document.myform.nnn.value;
   var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="" && pswd.length>=3)
+ var message = document.getElementById ('error-nwl');
+    var goodColor = "#66cc66";
+    var badColor = "#ff6666";
+  if (name!==""&& pswd!=="")
   {
-  window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+      if(pswd.value.length > 5)
+    {
+      pswd.style.backgroundColor = goodColor;
+	message.style.color = goodColor;
+	message.innerHTML = "password okay"
+    
+    } 
+      else 
+      {
+        	pswd.style.backgroundColor = badColor;
+	message.style.color = badColor;
+      message.innerHTML = " you have to enter at least 6 digit!"
+      }
+  
   }
-    else if(name=="" || pswd=="" || pswd.length<3)
+    else if(name=="" || pswd=="")
     {
     window.alert("Enter valid credentials!");
    }
+    
 }
  
 </script>
