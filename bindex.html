@@ -10,35 +10,13 @@
         <div class="box">
          
             <h1>BOROGRAM</h1>
-            <input type="text" name="nnn" placeholder="Enter a Username" >
-            <input type="password" name="ppp" placeholder="Password" onclick="checkPass()" minlength="5">
+		<form action="bindex2.html">
+            <input type="text" name="nnn" placeholder="Enter a Username" required>
+            <input type="password" name="ppp" placeholder="Password" minlength="5">
              
-            <input type="button" onclick="newDoc()" value="Sign Up"> 
-        
+            <input type="submit" value="Sign Up"> 
+            </form>
             </div>
 	    
-<script>
-function checkPass()
-    {
-  var name=document.myform.nnn.value;
-  var pswd=document.myform.ppp.value;
-
-if (name!==""&& pswd!=="")
-  {
-      if(pswd.value.length > 5)
-      {
-         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
-      } 
-     else
-     {
-        window.alert("Password should have atleast 5 characters!");
-     }
-  }
-else
-  {
-   window.alert("Username or Password can't be empty!");
-  }	
-		  
-</script>
     </body>
 </html>
