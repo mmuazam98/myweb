@@ -11,44 +11,34 @@
          
             <h1>BOROGRAM</h1>
             <input type="text" name="nnn" placeholder="Enter a Username" >
-            <input type="password" name="ppp" placeholder="Password" onkeyup="checkPass(); return false;"/>
+            <input type="password" name="ppp" placeholder="Password" onclick="checkPass()" minlength="5">
              
             <input type="button" onclick="newDoc()" value="Sign Up"> 
         
             </div>
-	    <div id = "error-nwl" ></div > 
+	    
 <script>
 function checkPass()
     {
   var name=document.myform.nnn.value;
   var pswd=document.myform.ppp.value;
- var message = document.getElementById ('error-nwl');
-    var goodColor = "#66cc66";
-    var badColor = "#ff6666";
-  if (name!==""&& pswd!=="")
+
+if (name!==""&& pswd!=="")
   {
       if(pswd.value.length > 5)
-    {
-      pswd.style.backgroundColor = goodColor;
-	message.style.color = goodColor;
-	message.innerHTML = "password okay"
-    
-    } 
-      else 
       {
-        	pswd.style.backgroundColor = badColor;
-	message.style.color = badColor;
-      message.innerHTML = " you have to enter at least 6 digit!"
-      }
-  
+         window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
+      } 
+     else
+     {
+        window.alert("Password should have atleast 5 characters!");
+     }
   }
-    else if(name=="" || pswd=="")
-    {
-    window.alert("Enter valid credentials!");
-   }
-    
-}
- 
+else
+  {
+   window.alert("Username or Password can't be empty!");
+  }	
+		  
 </script>
     </body>
 </html>
