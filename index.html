@@ -10,8 +10,8 @@
         <div class="box">
         <form name="myform" action="https://mm1025web.github.io/myweb/bindex2.html" method="post">
             <h1>BOROGRAM</h1>
-            <input type="text" name="nnn" placeholder="Username">
-            <input type="password" name="ppp" placeholder="Password">
+            <input type="text" name="uname" placeholder="Username">
+            <input type="password" name="pwd" placeholder="Password">
             <input type="button" onclick="newDoc()"  name="" value="Login">
             <p>-------------OR-------------</p>  
         </form>
@@ -19,13 +19,13 @@
           </div>
 <script>
 function newDoc() {
-  var name=document.myform.nnn.value;
-  var pswd=document.myform.ppp.value;
-  if (name!==""&& pswd!=="" && pswd.length>=6)
+  var name=document.myform.uname.value;
+  var pswd=document.myform.pwd.value;
+  if (name!==""&& pswd!=="" && pswd.length>=5)
   {
   window.location.assign("https://mm1025web.github.io/myweb/bindex2.html")
   }
-    else if(name=="" || pswd=="" || pswd.length<6)
+    else if(name=="" || pswd=="" || pswd.length<5)
     {
     window.alert("Enter valid credentials!");
    }
