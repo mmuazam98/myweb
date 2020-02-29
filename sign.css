@@ -38,6 +38,14 @@ body{
     transition: 0.25s;
 
 }
+p{
+    color: ivory;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: #fc2929;
+}
 .box input[type="text"]:focus,.box input[type="password"]:focus{
     width: 300px;
     border-color: #fc2929;
