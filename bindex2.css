@@ -25,7 +25,9 @@ body{
   position: relative;
   
 }
-
+h1{
+margin-right:70px ;
+}
 #navbar li{
   display:inline;
   
