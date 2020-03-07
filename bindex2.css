@@ -191,6 +191,7 @@ input:hover{
               }
              .column,.column1{
                width:25%;
-                 padding:15px 15px;
+                 padding:15px;
+                 margin-left: 10%;
              }
          }
