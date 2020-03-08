@@ -111,4 +111,7 @@ input[type="button" ]{
         display: block;
         
     }
+      input[type="button"]{
+        margin:60px;
+    }
   }
