@@ -76,6 +76,10 @@ a{
     .box{
          width:500px;
     }
+    body{
+        background-repeat:no-repeat;
+        background-size:cover;
+     }
     
 .box input[type="text"],.box input[type="password"]{
     border: 0;
