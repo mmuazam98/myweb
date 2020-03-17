@@ -5,9 +5,11 @@
      <link rel="stylesheet" href="sign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script>
+	     function verify(){
          var username = document.myform.uname.value;
          var pswd = document.myform.pwd.value;
          var cpswd = document.myform.cpwd.value;
+	     
        if(username!="" && pswd!=="" && cpswd!="")
        {
           if(cpswd==pswd)
@@ -19,7 +21,7 @@
 	          window.alert("Password doesn't match!");
 	       }
        }
-	    
+	     }    
 </script>
     </head>
     <body>
@@ -31,7 +33,7 @@
             <input type="password" name="pwd" placeholder="Password" minlength="5" required>
               <input type="password" name="cpwd" placeholder="Confirm password" minlength="5" required>
              
-            <input type="submit" value="Sign Up"> 
+            <input type="submit" onclick="verify()" value="Sign Up"> 
             </form>
 		 <p>Already a member? <a href="index.html">Login.</a></p>
             </div>
