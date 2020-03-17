@@ -4,7 +4,11 @@
         <title>Signup</title>
      <link rel="stylesheet" href="sign.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+     <script>
+         var username = document.myform.uname.value;
+         var pswd = document.myform.pwd.value;
+         var cpswd = document.myform.cpwd.value;
+       if(username)
     </head>
     <body>
         <div class="box">
@@ -13,7 +17,7 @@
 		<form action="bindex22.html" data-netlify="true">
             <input type="text" name="uname" placeholder="Enter a username" required>
             <input type="password" name="pwd" placeholder="Password" minlength="5" required>
-              <input type="password" name="pwd" placeholder="Confirm password" minlength="5" required>
+              <input type="password" name="cpwd" placeholder="Confirm password" minlength="5" required>
              
             <input type="submit" value="Sign Up"> 
             </form>
