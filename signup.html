@@ -8,13 +8,25 @@
          var username = document.myform.uname.value;
          var pswd = document.myform.pwd.value;
          var cpswd = document.myform.cpwd.value;
-       if(username)
+       if(username!="" && pswd!=="" && cpswd!="")
+       {
+          if(cpswd==pswd)
+	  {
+	     window.location.assign("https://mm1025web.github.io/myweb/bindex22.html")
+	  }
+	       else
+	       {
+	          window.alert("Password doesn't match!");
+	       }
+       }
+	    
+</script>
     </head>
     <body>
         <div class="box">
          
             <h1>BOROGRAM</h1>
-		<form action="bindex22.html" data-netlify="true">
+		<form action="bindex22.html" name="myform" data-netlify="true">
             <input type="text" name="uname" placeholder="Enter a username" required>
             <input type="password" name="pwd" placeholder="Password" minlength="5" required>
               <input type="password" name="cpwd" placeholder="Confirm password" minlength="5" required>
