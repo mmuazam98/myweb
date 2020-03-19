@@ -1,117 +1,157 @@
 body{
    
-    background: url("https://thehumblei.com/wp-content/uploads/2013/04/binary-code-9004-2560x1600.jpg") no-repeat fixed center;
-    background-size:cover;
-    color:rgb(20, 19, 19);
-    font-size: 23px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.6em;
-    margin:0;
-    
-  }
-  a{
-    text-decoration: none;
-    
-    color:rgba(255, 255, 255, 0.986);
-    
-  }
-  a:hover{
-    color:rgb(20, 16, 255);
-  }
-  .row{
-    display: block;
-    margin-top: 80px;
-    font-size: xx-large;
-    
- }
- .column1 {
-    background-size: cover;
-    color: rgb(0, 0, 0);
-   margin-top: 60px;
-   margin-left: 9.5%;
+  background: url("https://thehumblei.com/wp-content/uploads/2013/04/binary-code-9004-2560x1600.jpg") no-repeat fixed center;
+  background-size:cover;
+  color:rgb(20, 19, 19);
+  font-size: 23px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6em;
+  margin:0;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  
+  font-size: 15px;
+}
+a:hover{
+  color:rgb(18, 16, 156);
+}
+.row{
+  display: block;
+  margin-top: 60px;
+  font-size: xx-large;
+  
+}
+.column1 {
+  background-size: cover;
+  color: rgb(0, 0, 0);
+ margin-top: 60px;
+ margin-left: 900px;
+
+width: 300px;
+padding: 30px;
+height: 200px; 
+box-sizing: border-box;
+  border:solid;
+
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+.column {
+   background-size: cover;
+   color: rgb(0, 0, 0);
+   margin-top: 50px;
+   margin-left:25%;
+   margin-right: 31%;
  float: right;
  width: 300px;
  padding: 30px;
  height: 200px; 
  box-sizing: border-box;
-    border:solid;
- border-radius: 50px;
+ border:solid;
+ border-radius: 0px;
  background-position: center;
  background-size: cover;
- }
- .column {
-     background-size: cover;
-     color: rgb(0, 0, 0);
-     margin-top: 60px;
-     margin-left:7%;
-     margin-right: 31%;
-   float: right;
-   width: 300px;
-   padding: 30px;
-   height: 200px; 
-   box-sizing: border-box;
-   border:solid;
-   border-radius: 50px;
-   background-position: center;
-   background-size: cover;
- }
- 
- 
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
- }
-p{
-    color: white;
+ position: absolute;
 }
+
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
 input[type="button" ]{
+  border: 0;
+  background: silver;
+  display: block;
+  opacity: 0.8;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 10px;
+  width: 100px;
+  outline: none;
+  color:black;
+  border-radius: 50px;
+  margin:95px 60px ;
+  cursor: pointer;
+
+}
+input:hover{
+  background: rgb(133, 123, 123);
+  
+}
+#space{
+  margin: 200px;
+}
+#hindu{
+  font-size:-9999px;
+ 
+}
+
+.column:hover,.column1:hover{
+  
+  box-shadow: 10px 20px 30px rgb(46, 46, 48);
+  transform: scale(1.2);
+}
+@media only screen and (max-width:600px)
+{
+body {
+      width:100%;
+      background: url("https://thehumblei.com/wp-content/uploads/2013/04/binary-code-9004-2560x1600.jpg") no-repeat fixed center;
+     background-size: cover;
+     background-position: static;
+     overflow-x: hidden;
+     }
+     .row{
+         padding:15px;
+         
+         display: block;
+         margin-top: 25px;
+        
+     }
+   .column{
+    margin: 10px 30px ;
+    width: 170px;
+    height: 125px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+   }
+   .column1{
+      margin-left:200px;
+     width: 170px;
+     height: 125px;
+     margin-bottom: 10px;
+   }
+  .column:hover,.column1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  input[type="button" ]{
     border: 0;
     background: silver;
-    display: block;
+    display: inline;
     opacity: 0.8;
     text-align: center;
     border: 2px solid black;
     padding: 14px 10px;
-    width: 100px;
+    width: 55px;
     outline: none;
     color:black;
     border-radius: 50px;
-    margin:50px 60px ;
+    margin:95px 60px ;
     cursor: pointer;
   
   }
-  input:hover{
-    background: rgb(133, 123, 123);
-    
+
+  #space{
+    margin:10px;
   }
-  @media only screen and (max-width:600px)
-  {
- body {
-        width:100%;
-     
-       background-size: cover;
-       overflow-x:hidden;
-       }
-       .row{
-           padding:15px;
-           margin-top: 100px;
-           display: block;
-           margin-top: 40px;
-       }
-      .column{
-          width: min-content;
-          padding:15px 15px;
-          display: block;
-          float: left;
-      }
-      .column1{
-        width: min-content;
-        padding:15px 15px;
-        display: block;
-        
-    }
-      input[type="button"]{
-        margin:60px;
-    }
-  }
+}
