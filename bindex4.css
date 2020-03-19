@@ -13,7 +13,7 @@ body{
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color:rgba(0, 0, 0, 0.986);
-    font: bolder;
+    font-size: 15px;
   }
   a:hover{
     color:rgb(18, 16, 156);
@@ -28,32 +28,35 @@ body{
     background-size: cover;
     color: rgb(0, 0, 0);
    margin-top: 60px;
-   margin-left: 9.5%;
- float: right;
+   margin-left: 900px;
+ 
  width: 300px;
  padding: 30px;
  height: 200px; 
  box-sizing: border-box;
-    border:double;
- border-radius: 50px;
+    border:solid;
+ 
  background-position: center;
  background-size: cover;
+ position: relative;
+
  }
  .column {
      background-size: cover;
      color: rgb(0, 0, 0);
-     margin-top: 60px;
-     margin-left:7%;
+     margin-top: 50px;
+     margin-left:25%;
      margin-right: 31%;
    float: right;
    width: 300px;
    padding: 30px;
    height: 200px; 
    box-sizing: border-box;
-   border:double;
-   border-radius: 50px;
+   border:solid;
+   border-radius: 0px;
    background-position: center;
    background-size: cover;
+   position: absolute;
  }
  
  
@@ -83,30 +86,55 @@ input[type="button" ]{
     background: rgb(133, 123, 123);
     
   }
+  #space{
+    margin: 200px;
+  }
+  #hindu{
+    font-size:-9999px;
+   
+  }
+ 
+  .column:hover,.column1:hover{
+    
+    box-shadow: 10px 20px 30px rgb(46, 46, 48);
+    transform: scale(1.2);
+  }
   @media only screen and (max-width:600px)
   {
  body {
         width:100%;
         background: url("https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg") no-repeat fixed center;
        background-size: cover;
-       overflow-x:hidden;
+       overflow-x: hidden;
        }
        .row{
            padding:15px;
-           margin-top: 100px;
+           
            display: block;
-           margin-top: 40px;
+           margin-top: 25px;
+          
        }
-      .column{
-          width: min-content;
-          padding:15px 15px;
-          display: block;
-          float: left;
-      }
-      .column1{
-        width: min-content;
-        padding:15px 15px;
-        display: block;
-        
+     .column{
+      margin: 10px 30px ;
+      width: 170px;
+      height: 125px;
+      margin-bottom: 10px;
+      background-size: cover;
+      background-position: fixed;
+      background-repeat: no-repeat;
+     }
+     .column1{
+        margin-left:200px;
+       width: 170px;
+       height: 125px;
+       margin-bottom: 10px;
+     }
+    .column:hover,.column1:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    #space{
+      margin:50px;
     }
   }
