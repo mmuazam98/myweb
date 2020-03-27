@@ -28,6 +28,20 @@ body{
 h1{
 margin-right:70px ;
 }
+.seprate-line {
+  height: 4px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  animation: animate1 3s forwards ease-in-out;
+  animation-delay: 0.5s;
+}
+@keyframes animate1 {
+  0%   {background-color:rgb(55, 0, 255); width:0%;}
+  25%  {background-color:rgb(0, 132, 255); width:25%;}
+  50%  {background-color:rgb(0, 195, 255); width:50%;}
+  75%  {background-color:rgb(0,190, 138); width:75%;}
+  100% {background-color:rgb(13, 3, 70); width:100%;}
+}
 #navbar li{
   display:inline;
   
