@@ -125,7 +125,7 @@ height: 200px;
 box-sizing: border-box;
    border:double;
 border-radius: 50px;
-
+transition: all 1s ease-in-out;
 }
 .column {
     background-size: cover;
@@ -140,10 +140,14 @@ border-radius: 50px;
   margin-right: 1%;
   border:double;
   border-radius: 50px;
+  transition: all 1s ease-in-out;
   
 }
 
-
+.column1:hover, .column:hover{
+  
+  transform: rotate3d(2,4,4,360deg);
+}
 .row:after {
   content: "";
   display: table;
@@ -168,7 +172,7 @@ input[type="button" ]{
 }
 input:hover{
   background: rgb(133, 123, 123);
-  width:105px;
+  
 }
 #main-footer{
   font-size: 15px;
