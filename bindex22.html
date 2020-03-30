@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"  href="bindex2.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <style>
+             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style>
         body {
           font-family: "Lato", sans-serif;
         }
@@ -59,20 +60,20 @@
     
     <div class="seprate-line"></div>
     
-       <section id="showcase">
+       <section id="showcase" data-aos="fade-up" data-aos-delay="250">
             <div class="container">
                 <h3>WELCOME!</h3>
             </div> 
             </section>
-       <div class="container">
-                <section id=main>
+       <div class="container" data-aos="fade-up" data-aos-delay="250">
+                <section id="main" >
                     <p>Hello Mate!</p>
                     <p>Are you bored? If yes, maybe you've found something that might help you out.</p>
                     
                     <p>Let's see if we can help you get rid of this boredom.</p>
                 </section>
        </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-delay="250">
         <div class="column1" style="background-image: url(https://image.freepik.com/free-vector/vintage-ornamental-flowers-background_23-2148335456.jpg);">
             <p>Slam!</p>
             <input type="button"  onclick="window.location.href = 'home.html';" name="" value="Click here">
@@ -84,7 +85,7 @@
         </div>
         
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-delay="250">
         <div class="column1" style="background-image: url(https://s3.envato.com/files/183527757/Code%20Background%2001_preview1.JPG);">
             <p>Code!</p>
                     <input type="button" onclick="window.location.assign('code.html');" name="" value="Click here" >
@@ -94,7 +95,7 @@
                     <input type="button"  onclick="window.location.assign('bindex4.html');"  name="" value="Click here">
           </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-delay="250">
         <div class="column1" style="background-image: url(https://cdn.dribbble.com/users/673549/screenshots/3159371/videogamecontroller_background.jpg);">
             <p>Games!</p>
                     <input type="button" onclick="window.open('https://poki.com/en/racing', '_blank');"  name="" value="Click here" >
@@ -104,7 +105,7 @@
             <input type="button" onclick="window.open('http://www.9gag.com/meme', '_blank');"  name="" value="Click here" >
           </div>
       </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-delay="250">
         <div class="column1" style="background-image: url(https://t3.ftcdn.net/jpg/00/69/52/22/240_F_69522250_P4jhX0SMBA7qoz9kQdMEQlkWZU9CLZfa.jpg);">
             <p>Quotes!</p>
                     <input type="button" onclick="window.open('https://www.goodreads.com/quotes', '_blank');"  name="" value="Click here" >
@@ -114,7 +115,7 @@
             <input type="button" onclick="window.open('https://www.popcornflix.com/pages/discover/d/movies', '_blank');"  name="" value="Click here" >
           </div>
       </div>
-           <div class="row">
+           <div class="row" data-aos="fade-up" data-aos-delay="250">
         <div class="column1" style="background-image: url(https://www.rd.com/wp-content/uploads/2017/10/This-Is-How-Long-It-Takes-To-Read-The-Whole-Dictionary_509582812-Billion-Photos_FB-e1574101045824.jpg);">
             <p>Books!</p>
                     <input type="button" onclick="window.open('https://openlibrary.org/', '_blank');"  name="" value="Click here" >
@@ -130,6 +131,10 @@
         <p> Developed by Mohammad Muazam.</p>
         
     </footer>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+      AOS.init(); 
+   </script>
 
 
     </body>
